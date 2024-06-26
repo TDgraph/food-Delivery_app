@@ -1,0 +1,44 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling the logo */
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+/* styling the navigation menu in the right */
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+/* styling the sign-in button */
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+/* styling the button to create an hover effect */
+.navbar button:hover{
+    background-color: #fff4f2;
+}
