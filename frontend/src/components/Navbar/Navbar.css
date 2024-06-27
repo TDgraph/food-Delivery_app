@@ -42,3 +42,29 @@
 .navbar button:hover{
     background-color: #fff4f2;
 }
+
+/* adding the underline to the menu button */
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+/* provide the cursorpointer when the cursor hovers over the menu button */
+.navbar li{
+    cursor: pointer;
+}
+
+/* design the dot on the basket as a form of notification when an item is in the cart */
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
